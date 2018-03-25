@@ -34,15 +34,15 @@ export class AppComponent {
   }
 
   onkeyUpArrowDown(e) {
-    this.diretion = 'Down';
+    this.keyboradDiretion = 'Down';
   }
   onkeyUpArrowRight(e) {
-    this.diretion = 'Right';
+    this.keyboradDiretion = 'Right';
   }
   onkeyUpArrowLeft(e) {
-    this.diretion = 'Left';
+    this.keyboradDiretion = 'Left';
   }
   onkeyUpArrowUp(e) {
-    this.diretion = 'Up';
+    this.keyboradDiretion = 'Up';
   }
 }
